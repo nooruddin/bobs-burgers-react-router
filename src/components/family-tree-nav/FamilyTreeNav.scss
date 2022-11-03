@@ -1,0 +1,24 @@
+.familytreenav {
+  display: flex;
+  width: 100vw;
+  justify-content: flex-start;
+  align-items: center;
+
+  &__links {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 70%;
+  }
+  
+  &__link {
+    padding: 1rem;
+    margin-right: 2rem;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    color: black;
+    background: yellow;
+    border-radius: 1rem;
+  }
+}

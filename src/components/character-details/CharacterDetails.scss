@@ -1,0 +1,77 @@
+.details {
+  border: 1px solid black;
+  border-radius: 1rem;
+  margin: 2rem;
+  width: 80vw;
+  height: 50vh;
+  padding: 1rem;
+  position: relative;
+  font-size: 1rem;
+
+  &__heading {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 0;
+  }
+
+  &__info {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+  }
+
+  &__left, &__right{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 0.8rem;
+    width: 50%;
+    text-align: left;
+  }
+
+  &__right {
+    justify-content: flex-end;
+  }
+
+  &__extra-info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__occupation {
+    margin-bottom: 0;
+  }
+
+  &__wiki {
+    font-size: 1.5rem;
+    color: black;
+  }
+
+  
+  &__id {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    font-size: 0.6rem;
+    text-align: center;
+    border: 1px solid black;
+    position: absolute;
+    top: -1.5rem;
+    right: -1rem;
+    z-index: 888888;
+    line-height: 32px;
+    background: white;
+  }
+  
+  &__avatar {
+    border-radius: 50%;
+    width: 128px;
+    height: 128px;
+    border: 1px solid black;
+    position: absolute;
+    bottom: -1.5rem;
+    right: -1.5rem;
+    z-index: 99999;
+    color: black;
+    background: white;
+  }
+}
